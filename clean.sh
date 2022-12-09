@@ -36,3 +36,4 @@ done
 # This incantation avoids unbound variable issues if git_args is empty
 # https://stackoverflow.com/questions/7577052/bash-empty-array-expansion-with-set-u
 git clean -dix -e .dotnet/ -e .tools/ ${git_args[@]+"${git_args[@]}"}
+#  markd

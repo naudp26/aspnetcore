@@ -40,3 +40,7 @@ if ($Help) {
 
 git clean -dix -e .dotnet/ -e .tools/ @GitArguments
 git checkout -- $(git ls-files -d)
+
+
+
+# read to
